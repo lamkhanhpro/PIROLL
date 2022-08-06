@@ -1,0 +1,193 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    margin-bottom: 25px;
+}
+
+.header_menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_menu a:hover {
+    color: #5ed4d0;
+}
+
+.header_menu a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #171717;
+}
+
+.header_logo {
+    width: 20px;
+    height: 15px;
+
+}
+
+.header_menu>li:nth-child(2),
+li:first-child {
+    margin-right: 20px;
+}
+
+.CONTACT_CONTACTINFO {
+    margin-left: 100px;
+}
+
+.CONTACT_CONTACTINFO_TITLE {
+    font-size: large;
+    font-weight: 900;
+}
+
+.CONTACT_CONTACTINFO_TITLE_MAIN {
+    width: 400px;
+}
+
+.CONTACT_CONTACTINFO_INFO {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.CONTACT_LEFT_INFO {
+    display: flex;
+}
+.CONTACT_MAP{
+    width: 90%;
+    height: 90%;
+    margin-left: 60px;
+
+    margin-top: 30px;
+}
+.CONTACT_TEXT{
+    margin-left: 90px;
+}
+.cachboflex {}
+.CONTACT_COMMENT_TITLE{
+    width: 100%;
+    margin-top: 30px;
+}
+.CONTACT_COMMENT_TITLE_2{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+.CONTACT_BUTTON {
+    margin-top: 20px;
+    padding: 13px;
+    background-color: #5ed4d0;
+}
+
+.CONTACT_CONTACTINFO_INFO_TITLE {
+    font-weight: bolder;
+}
+
+.home_banner {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home_banner_content {
+    color: #787878;
+    padding: 0px 410px;
+}
+
+.home_col {
+    display: flex;
+}
+
+.home_col>div {
+    width: 25%;
+}
+
+.about_banner {
+    display: flex;
+}
+
+.about_banner_left {
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    padding: 50px 70px;
+}
+
+.about_banner_right {
+    width: 50%;
+}
+
+.about_banner_left_content,
+.about_banner_left_mean,
+.about_information_content {
+    color: #787878;
+    font-size: 14px;
+    font-family: Nunitosans, sans-serif;
+}
+.about_banner_left_title{
+    font-size: 16px;
+}
+.about_information {
+    margin-top: 35px
+}
+
+.about_information_title {
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: Nunitosans;
+}
+
+.about_nextback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 30px 70px;
+}
+
+.about_nextback_logo {
+    width: 14px;
+    height: 13px;
+}
+
+.about_nextback_right,
+.about_nextback_left {
+    display: flex;
+    align-items: center;
+    cursor: pointer
+}
+
+.footer {
+    background-color: black;
+    padding: 50px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.footer_introduce {}
+
+.footer_social {
+    display: flex;
+    ;
+}
+
+.footer_menu {
+    display: flex;
+
+}
